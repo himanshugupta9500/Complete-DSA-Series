@@ -3,8 +3,7 @@
 Hello Coders,
 
 This repo containes all the codes which are covered in Youtube Videos.
-Link : shorturl.at/jkmX3
-
+Link : https://3c5.com/VcAGr
 
 Himanshu Gupta 
 Happy Coding 
