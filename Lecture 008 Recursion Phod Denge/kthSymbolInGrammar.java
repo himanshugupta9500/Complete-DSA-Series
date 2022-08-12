@@ -31,10 +31,10 @@ public int kthGrammar(int N, int K) {
 	if(K%2==1) {
 		return kthGrammar(N-1, (K+1)/2);
 	} else {
-		return flip(kthGrammar(N-1, K/2));
+		return complement(kthGrammar(N-1, K/2));
 	}
 }
 
-public int flip(int val) {
+public int complement(int val) {
 	return val==0? 1 : 0;
 }

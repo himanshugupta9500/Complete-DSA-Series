@@ -12,6 +12,16 @@ Output: 0
 Explanation: row 1: 0
 */
 
+// think of the problem like this
+/*        0
+      /       \
+     0          1
+   /   \      /    \
+   0     1    1      0
+ / \     / \   / \   / \
+ 0  1   1   0  1  0  0  1
+*/
+
 class Solution {
 public:
     int kthGrammar(int n, int k) {
